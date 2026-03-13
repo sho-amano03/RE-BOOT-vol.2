@@ -3,20 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+.concept-character img{
+    width: 200px;
+    height: auto;
+} 
+
 
 body{
     background:
       repeating-linear-gradient(
         60deg,
-        rgba(255,0,60,0.06) 0px,
-        rgba(255,0,60,0.06) 1px,
+        rgba(255,0,60,0.07) 0px,
+        rgba(255,0,60,0.07) 1px,
         transparent 1px,
         transparent 50px
       ),
       repeating-linear-gradient(
         -60deg,
-        rgba(255,0,60,0.06) 0px,
-        rgba(255,0,60,0.06) 1px,
+        rgba(255,0,60,0.07) 0px,
+        rgba(255,0,60,0.07) 1px,
         transparent 1px,
         transparent 50px
       ),
@@ -46,6 +51,7 @@ body::before{
     display: flex; 
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .hero-logo{
@@ -304,13 +310,18 @@ body::before{
 
     .concept-box{
         flex-direction: column;
+        position: relative;
     }
     .speech{
         order: 1;
     }
     .concept-character{
-        order: 2;
-        margin-bottom: 0;    
+        position: absolute;
+        left: 20px;
+        top: -40px;
+    }
+    .concept-character img{
+        width: 70px;
     }
     .info{
         padding-top: 0;
@@ -352,7 +363,7 @@ body::before{
         font-size: 20px;
     }
     .notes-list li{
-        font-size: 10px;
+        font-size: 11px;
     }
     .notes-title .line{
         width: 80px;
@@ -361,10 +372,4 @@ body::before{
         width: 120px;
     }
 }
-
-.concept-character img{
-    width: 200px;
-    height: auto;
-} 
-
 
