@@ -318,6 +318,9 @@ body::before{
     text-align: center;
     border-top: 1px solid rgba(255,0,60,0.5);
 }
+.sp{
+    display: none;
+}
 
 
 @media (max-width:760px){
@@ -388,5 +391,10 @@ body::before{
     .contact{
         font-size: 10px;
     }
+    .sp{
+        display: block;
+    }
 }
-
+.p {
+    word-break: break-all;
+}
