@@ -2,7 +2,8 @@
 クラブイベント[RE:BOOT]の公式サイトと、VIP予約を管理するWebシステム。
 
 ## 🔗DEMO
-https://forms.gle/ytMwntiaCqJMw6R38
+- サイト　　https://sho-amano03.github.io/RE-BOOT-vol.2/
+- 予約フォーム　　https://forms.gle/ytMwntiaCqJMw6R38
 
 ## 概要
 
