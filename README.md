@@ -4,6 +4,7 @@
 ## 🔗DEMO
 - サイト　　https://sho-amano03.github.io/RE-BOOT-vol.2/
 - 予約フォーム　　https://forms.gle/ytMwntiaCqJMw6R38
+  ※デモ用として公開しています。個人情報の入力はお控えください。
 
 ## 概要
 
@@ -28,7 +29,7 @@
 - VIP席案内
 - VIP席予約フォーム
 - 注意事項
-- 
+
 RE:BOOTの公式情報を掲載するトップページです。
 イベント概要、VIP席予約、注意事項をまとめて確認できるようにしています。
 
